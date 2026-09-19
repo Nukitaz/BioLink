@@ -1,11 +1,11 @@
 # Biolink
 
-Declaración de uso de herramientas:
+### Declaración de uso de herramientas:
 
 ¿Qué herramientas de IA utilizaste durante la práctica? (ej. ChatGPT, GitHub Copilot, Claude, Gemini, etc.). Si no utilizaste ninguna, indícalo explícitamente.
--GEMINI
+*-GEMINI*
 
-Registro de Prompts y Reflexión:
+### Registro de Prompts y Reflexión:
 
 Documenta al menos 2 peticiones (prompts) clave que hayas realizado a la IA para resolver un problema de código o diseño.
 
@@ -21,9 +21,9 @@ imágenes), y un <footer>. Asegúrate de usar atributos de accesibilidad alt y a
 
 
 Describe la respuesta recibida y evalúa: ¿El código devuelto funcionó a la primera o necesitó correcciones? ¿Comprendes cada línea de código que integraste proveniente de la IA?
--Necesito correcciones ya que en veces fallaba el CCS y demas, se entiende la parte logica de HTML y lo basico
+*-Necesito correcciones ya que en veces fallaba el CCS y demas, se entiende la parte logica de HTML y lo basico*
 
-Uso Ético y Responsabilidad:
+### Uso Ético y Responsabilidad:
 
 Explica brevemente cómo garantizaste que el uso de la IA no sustituyó tu aprendizaje ni tu criterio propio frente al desarrollo.
--Me ayudo a aprender usando los prompts y mirando los cambios realizados
+*-Me ayudo a aprender usando los prompts y mirando los cambios realizados*
