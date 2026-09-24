@@ -1,14 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // 1. Agregar el botón 'Contáctame' dinámicamente a la navegación si no existe
-  const navLinks = document.querySelector('.nav-links');
-  if (navLinks && !document.querySelector('.btn-contact-nav')) {
-    const contactBtn = document.createElement('a');
-    contactBtn.href = 'contacto.html';
-    contactBtn.className = 'social-btn btn-contact-nav';
-    contactBtn.textContent = 'Contáctame ✉️';
-    contactBtn.style.marginLeft = '1rem';
-    navLinks.appendChild(contactBtn);
-  }
 
   // 2. Envío de datos a la API de Google Apps Script
   const contactForm = document.getElementById('contact-form');
