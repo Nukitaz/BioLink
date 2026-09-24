@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | NUHTECH</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="16x16" href="docs/favicon-16x16.png">
+</head>
+<body>
+
+  <!-- BARRA DE NAVEGACIÓN -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo" aria-label="Inicio NUH TECH">NUH<span>TECH</span></a>
+      <nav class="nav-links" aria-label="Menú de acceso rápido">
+        <a href="index.html#proyectos">Proyectos</a>
+        <a href="index.html#galeria">Galería</a>
+        <a href="contacto.html" class="active">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="main-bio container">
+    <section class="contact-section" aria-labelledby="titulo-contacto">
+      <h1 class="section-title" id="titulo-contacto">Contáctame</h1>
+      <p class="contact-subtitle">
+        Completa el siguiente formulario para enviarme un mensaje directamente a mi correo electrónico.
+      </p>
+
+      <!-- Reemplaza 'YOUR_FORMSPREE_ENDPOINT' con tu URL/endpoint de Formspree -->
+      <form action="https://formspree.io/f/xvkgrdjz" method="POST" class="contact-form">
+        
+        <div class="form-group">
+          <label for="nombre">Nombre Completo</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Correo Electrónico</label>
+          <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="telefono">Número de Teléfono</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="+52 33 1234 5678">
+        </div>
+
+        <div class="form-group">
+          <label for="asunto">Asunto</label>
+          <input type="text" id="asunto" name="asunto" placeholder="Motivo de contacto" required>
+        </div>
+
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje 🚀</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2026 Desarrollador de Software. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

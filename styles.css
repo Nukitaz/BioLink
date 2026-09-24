@@ -63,6 +63,11 @@ body {
   color: var(--accent-pink);
 }
 
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
 .nav-links a {
   color: var(--text-muted);
   text-decoration: none;
@@ -71,7 +76,8 @@ body {
   transition: var(--transition);
 }
 
-.nav-links a:hover {
+.nav-links a:hover,
+.nav-links a.active {
   color: var(--accent-pink);
 }
 
@@ -175,7 +181,7 @@ body {
 .section-title {
   text-align: center;
   font-size: 1.6rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
   font-weight: 700;
 }
 
@@ -272,6 +278,70 @@ body {
 
 .gallery-item img:hover {
   transform: scale(1.03);
+}
+
+/* --- FORMULARIO DE CONTACTO --- */
+.contact-section {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.contact-subtitle {
+  text-align: center;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.contact-form {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  padding: 2rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 8px;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
+  font-family: var(--font-family);
+  font-size: 0.95rem;
+  transition: var(--transition);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--accent-pink);
+  box-shadow: 0 0 8px rgba(255, 103, 164, 0.3);
+}
+
+.btn-block {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  padding: 0.8rem;
 }
 
 /* --- FOOTER --- */
